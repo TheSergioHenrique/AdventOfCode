@@ -8,7 +8,7 @@ fn extrair_numeros(s: &str) -> Vec<i32> {
 
 fn main() -> io::Result<()> {
     // Caminho do arquivo que você deseja ler
-    let path = Path::new("/home/shiinarch/projects/advent_23_01/src/dia1.txt");
+    let path = Path::new("advent_23_01/src/dia1.txt");
 
     // Tenta abrir o arquivo
     let file = File::open(&path)?;
